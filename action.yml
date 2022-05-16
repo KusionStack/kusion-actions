@@ -1,0 +1,60 @@
+name: 'Kusion Action'
+description: 'Kusion Action'
+inputs:
+  diffs:  
+    description: 'diff files'
+    required: false
+    default: ''
+  subcommand:  
+    description: 'kusion subcommand'
+    required: true 
+    default: 'apply'
+  workDir:  
+    description: 'work directory'
+    required: false
+    default: ''
+  settings:  
+    description: 'KCL setting files'
+    required: false
+    default: ''
+  arguments:  
+    description: 'KCL arguments'
+    required: false
+    default: ''
+  filenames:  
+    description: 'KCL files'
+    required: false
+    default: ''
+  yes:  
+    description: 'Kusion apply --yes'
+    required: false
+    default: 'false'
+  detail:  
+    description: 'Kusion apply --detail'
+    required: false
+    default: 'false'
+  noStyle:  
+    description: 'Kusion apply --no-style'
+    required: false
+    default: 'true'
+  dryRun:  
+    description: 'Kusion apply --dry-run'
+    required: false
+    default: 'true'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.subcommand }}
+    - ${{ inputs.workDir}}
+    - ${{ inputs.settings }}
+    - ${{ inputs.arguments }}
+    - ${{ inputs.filenames }}
+    - ${{ inputs.yes }}
+    - ${{ inputs.detail }}
+    - ${{ inputs.noStyle }}
+    - ${{ inputs.dryRun }}
+    - ${{ inputs.diffs }}
+branding:
+  icon: 'check-circle'  
+  color: 'green'
