@@ -1,11 +1,10 @@
-# go cli action prototype
+# KusionStack Action
 
 [![.github/workflows/main.yml](https://github.com/KusionStack/kusion-actions/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/KusionStack/kusion-actions/actions/workflows/main.yml)
 [![GitHub release](https://img.shields.io/github/release/KusionStack/kusion-actions.svg)](https://github.com/KusionStack/kusion-actions/releases)
-[![Github All Releases](https://img.shields.io/github/downloads/KusionStack/kusion-actions/total.svg)](https://github.com/KusionStack/kusion-actions/releases)
 [![license](https://img.shields.io/github/license/KusionStack/kusion-actions.svg)](https://github.com/KusionStack/kusion-actions/blob/master/LICENSE)
 
-To learn how this action was built, see "[Creating a Docker container action](https://help.github.com/en/articles/creating-a-docker-container-action)" in the GitHub Help documentation.
+This is a GitHub Action based on [kusion](https://github.com/KusionStack/kusion), it can help you operate your [KCL](https://github.com/KusionStack/KCLVM) configurations.
 
 ## Inputs
 
