@@ -1,7 +1,7 @@
 #!/bin/sh -l
 set -e
 
-APP_PATH="/kusion/bin/kusion"
+APP_PATH="/usr/local/bin/kusion"
 
 echo "kusion version:"
 $APP_PATH version
