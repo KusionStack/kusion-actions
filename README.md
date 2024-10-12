@@ -3,6 +3,7 @@
 [![.github/workflows/main.yml](https://github.com/KusionStack/kusion-actions/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/KusionStack/kusion-actions/actions/workflows/main.yml)
 [![GitHub release](https://img.shields.io/github/release/KusionStack/kusion-actions.svg)](https://github.com/KusionStack/kusion-actions/releases)
 [![license](https://img.shields.io/github/license/KusionStack/kusion-actions.svg)](https://github.com/KusionStack/kusion-actions/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKusionStack%2Fkusion-actions.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FKusionStack%2Fkusion-actions?ref=badge_shield)
 
 This is a GitHub Action based on [kusion](https://github.com/KusionStack/kusion), it can help you operate your [KCL](https://github.com/KusionStack/KCLVM) configurations.
 
@@ -111,3 +112,6 @@ with:
   yes: 'true'
   detail: 'true'
 ```
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FKusionStack%2Fkusion-actions.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FKusionStack%2Fkusion-actions?ref=badge_large)
